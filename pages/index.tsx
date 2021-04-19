@@ -9,7 +9,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="p-4 w-full flex flex-row bg-blue-50 fixed">
+      <header className="p-4 w-full flex flex-row bg-blue-50 fixed z-10">
         <a className="flex-auto text-4xl font-bold ml-20">portfolio</a>
         <nav className="flex-auto mr-20">
           <ul className="flex justify-end">
@@ -20,9 +20,13 @@ export default function Home() {
           </ul>
         </nav>
       </header>
+      <div>
+        <img src="/top.jpeg" className="h-screen w-full relative"></img>
+        <p className="text-6xl text-white absolute top-1/2 left-24">natsuki nakano <br/>portfolio</p>
+      </div>
 
       <div className="container mx-auto">
-        <main className="h-60 w-max">
+        <main className="h-screen w-max">
         </main>
       </div>
       <footer className={styles.footer}>
