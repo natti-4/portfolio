@@ -26,7 +26,39 @@ export default function Home() {
       </div>
 
       <div className="container mx-auto">
-        <main className="h-screen w-max">
+        <main className="">
+          <section className="h-screen">
+            <div className="text-center text-5xl pt-32 pb-20">
+              <h2>about</h2>
+            </div>
+            <div className="flex flex-row">
+              <div className="flex-1">
+                <img src="/about.jpeg" className="h-60 w-60 rounded-full m-auto"></img>
+              </div>
+              <div className="flex-1">
+                <p className="">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+              </div>
+            </div>
+          </section>
+          <section className="h-screen bg-blue-50 w-screen m-header-menu">
+            <div className="text-center text-5xl pt-32 pb-20">
+              <h2>skill</h2>
+            </div>
+            <div className="grid grid-cols-2 mx-20 gap-x-20 gap-y-10">
+              <div className="rounded-lg shadow-md bg-white h-36">1</div>
+              <div className="rounded-lg shadow-md bg-white h-36">2</div>
+              <div className="rounded-lg shadow-md bg-white h-36">3</div>
+              <div className="rounded-lg shadow-md bg-white h-36">4</div>
+              <div className="rounded-lg shadow-md bg-white h-36">5</div>
+            </div>
+          </section>
+          <section className="h-screen">
+          <div className="text-center text-5xl pt-32 pb-20">
+              <h2>work</h2>
+            </div>
+          </section>
         </main>
       </div>
       <footer className={styles.footer}>
