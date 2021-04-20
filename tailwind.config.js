@@ -5,7 +5,11 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      margin: {
+        'header-menu' : '0 calc(-50vw + 50%)'
+      }
+    },
   },
   variants: {
     extend: {},
