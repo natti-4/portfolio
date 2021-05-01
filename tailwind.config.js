@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       margin: {
         'header-menu' : '0 calc(-50vw + 50%)'
+      },
+      height: {
+        'sm-top' : '600px'
       }
     },
   },
