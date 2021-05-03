@@ -3,8 +3,8 @@ const Header: React.FC = () => {
   return (
     <header className="h-auto">
       <div className="md:p-4 py-4 w-full flex flex-row bg-blue-50 fixed z-10">
-        <a className="flex-auto md:text-4xl text-xl font-bold md:ml-16"><a href="#">portfolio</a></a>
-        <nav className="flex-auto md:mr-16">
+        <a className="flex-auto md:text-4xl text-xl font-bold md:ml-16 ml-1"><a href="#">portfolio</a></a>
+        <nav className="flex-auto md:mr-16 mr-1">
           <ul className="flex justify-end">
             <li className="md:pr-8 pr-4 md:text-2xl"><a href="#about">about</a></li>
             <li className="md:pr-8 pr-4 md:text-2xl"><a href="#skill">skill</a></li>
