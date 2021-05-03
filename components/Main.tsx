@@ -36,8 +36,8 @@ const Main: React.FC = () => {
           <div className="flex-1">
             <p className="m-auto">
             はじめまして。平成5年生まれの27歳エンジニアのなつきと申します。社会人歴（IT業界）4年目です。<br/>
-　新卒では中小企業のSIerに入社しました。常駐先ではウォータフォール型でデスクトップアプリ開発に携わりました。1年目は開発、2年目は問い合わせ対応と業務効率化のツールを作成です。 ただ、自分で勉強していくうちにもっと開発をしたい！！Webに携わりたい！！と思い転職を決意。<br/>
-　web系の自社開発に入社し、現在はフルスタックエンジニアとして働いております。直近でフロントはSPAで実装して、バックエンドはAPI開発です。
+            常駐先ではウォータフォール型で最初にアカウント管理・認証システムに携わり、ログ管理システムに携わっています。
+            検証、開発、試験を行なっています。 今はWeb系に興味をもち勉強中です。<br/>
             </p>
           </div>
         </div>
@@ -111,7 +111,9 @@ const Main: React.FC = () => {
         </div>
         <div className="md:mx-80 flex flex-row justify-center items-center">
           <img src="/Twitter.png" className="h-12 w-12 rounded-full mr-10"></img>
-          <img src="/GitHub.png" className="h-12 w-12 rounded-full "></img>
+          <a href="https://github.com/natti-4">
+            <img src="/GitHub.png" className="h-12 w-12 rounded-full "></img>
+          </a>
         </div>
       </section>
     </main>

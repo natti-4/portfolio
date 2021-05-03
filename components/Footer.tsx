@@ -5,7 +5,6 @@ const Footer: React.FC = () => {
       <p className="top-2/4">©︎ natsuki nakano</p>
     </footer>
   )
-  
 }
 
 export default Footer
