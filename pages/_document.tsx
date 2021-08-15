@@ -8,7 +8,7 @@ export default class MyDocument extends Document {
         <Head>
           <title>portfolio</title>
           <link rel="icon" href="/favicon.ico" />
-          // GA_TRACKING_ID が設定されていない場合は、なし
+          {/*// GA_TRACKING_ID が設定されていない場合は、なし*/}
           {GA_TRACKING_ID && (
             <>
               <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
