@@ -84,23 +84,23 @@ const Main: React.FC = () => {
           <h2>work</h2>
         </div>
         <div className="grid md:grid-cols-3 grid-cols-1 gap-y-10">
-          <div className="mx-auto">
-            <a href="#">
-              <img src="/thumbnail.png" className="h-48 w-80 rounded shadow hover:opacity-50"></img>
+          <div className="mx-auto h-48 w-80 rounded shadow hover:shadow-xl hover:transform hover:-translate-y-3">
+            <a href="https://natsukitech.com">
+              <img src="/thumbnail.png" ></img>
               <p className="text-center pt-2">portfolio</p>
             </a>
           </div>
           <div className="mx-auto">
-            <a href="#">
-              <img src="/thumbnail.png" className="h-48 w-80 rounded shadow hover:opacity-50"></img>
+            {/*<a href="https://portfolio-natti-4.vercel.app">
+              <img src="/thumbnail.png" className="h-48 w-80 rounded shadow hover:shadow-xl hover:transform hover:-translate-y-3"></img>
               <p className="text-center pt-2">portfolio</p>
-            </a>
+            </a>*/}
           </div>
           <div className="mx-auto">
-            <a href="#">
-              <img src="/thumbnail.png" className="h-48 w-80 rounded shadow hover:opacity-50"></img>
+            {/*<a href="https://portfolio-natti-4.vercel.app">
+              <img src="/thumbnail.png" className="h-48 w-80 rounded shadow hover:shadow-xl hover:transform hover:-translate-y-3"></img>
               <p className="text-center pt-2">portfolio</p>
-            </a>
+            </a>*/}
           </div>
         </div>
       </section>
