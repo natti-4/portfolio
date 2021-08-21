@@ -15,7 +15,11 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      boxShadow: ['hover'],
+      transform: ['hover'],
+      translate: ['hover'],
+    },
   },
   plugins: [],
 }
