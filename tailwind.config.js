@@ -11,6 +11,9 @@ module.exports = {
       },
       height: {
         'sm-top' : '600px'
+      },
+      backgroundImage: {
+        'header': "url('../public/top.jpeg')"
       }
     },
   },
