@@ -13,7 +13,7 @@ const Header: React.FC = () => {
           </ul>
         </nav>
       </div>
-      <img src="/top.jpeg" className="md:h-screen h-sm-top w-full relative"></img>
+      <div className="md:h-screen h-sm-top w-full relative bg-header bg-cover z-1"></div>
       <p className="md:text-6xl text-4xl text-white absolute top-1/2 md:left-24 left-10">natsuki nakano <br/>portfolio</p>
     </header>
   )

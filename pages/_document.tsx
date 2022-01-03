@@ -6,7 +6,6 @@ export default class MyDocument extends Document {
     return (
       <Html lang="ja">
         <Head>
-          <title>portfolio</title>
           <link rel="icon" href="/favicon.ico" />
           {/*// GA_TRACKING_ID が設定されていない場合は、なし*/}
           {GA_TRACKING_ID && (
